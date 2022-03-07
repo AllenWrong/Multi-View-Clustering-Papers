@@ -76,6 +76,7 @@ Besides, the directory 'data loader' is a simple coda base that is used to const
 - [ICML 2020] Representation Learning via Adversarially-Contrastive Optimal Transport <a href="https://arxiv.org/pdf/2007.05840">Paper</a>
 - [CVPR 2020] What Makes Training Multi-modal Classification Networks Hard? <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_What_Makes_Training_Multi-Modal_Classification_Networks_Hard_CVPR_2020_paper.pdf">Paper</a>
 - [TKDE 2021] Cross-view Locality Preserved Diversity and Consensus Learning for Multi-view Unsupervised Feature Selection <a href="https://ieeexplore.ieee.org/document/9312467">Paper</a>
+- [JMLR 2022] Toolbox for Multimodal Learn (scikit-multimodallearn)  [Paper](https://www.jmlr.org/papers/v23/21-0791.html) [Code](https://github.com/dbenielli/scikit-multimodallearn)
 
 ## Data Set
 
