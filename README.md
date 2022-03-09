@@ -105,7 +105,12 @@ More detailed dataset information can be get <a href="./Data Info.md">here</a>.
 |  SUNRGBD3   |  10335  |   2   |    45    | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Liu_One-Pass_Multi-View_Clustering_for_Large-Scale_Data_ICCV_2021_paper.html">ref</a> |
 |     AwA     |  30475  |   6   |    50    | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Liu_One-Pass_Multi-View_Clustering_for_Large-Scale_Data_ICCV_2021_paper.html">ref</a> |
 |  mirflickr  |         |       |          |                                                              |
-|             |         |       |          |                                                              |
+|     VOC     |  5649   |   2   |    20    |              [Get](./data loader/data/voc.npz)               |
+|    RGB-D    |  1449   |   2   |    13    |              [Get](./data loader/data/rgbd.npz)              |
+
+
+
+
 
 
 

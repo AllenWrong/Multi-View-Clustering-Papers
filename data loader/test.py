@@ -83,3 +83,13 @@ def show_each_view_shape(data: DataShell):
 # youtube_video = DataShell("./data/YoutubeVideo_sel_fea.mat", load_youtube_video, missing=0.1)
 # print("---- youtube-video")
 # show_each_view_shape(youtube_video)
+#
+# # example 16
+# voc = DataShell("./data/voc.npz", load_voc, missing=0)
+# print("---- voc")
+# show_each_view_shape(voc)
+#
+# # example 17
+# rgbd = DataShell("./data/rgbd.npz", load_rgbd, missing=0.1)
+# print("---- rgbd")
+# show_each_view_shape(rgbd)
