@@ -131,3 +131,11 @@ def load_rgbd(data_dir):
     a = np.load(data_dir)
     x = [torch.from_numpy(a['view_0']), torch.from_numpy(a['view_1'])]
     return x, torch.from_numpy(a['labels']), a['labels'].shape[0]
+
+
+def load_CiteSeer(data_dir):
+    CiteSeer = scio.loadmat(data_dir)
+    x = [torch.from_numpy(CiteSeer['fea'][0][i].todense()) for i in range(2)]
+    y = torch.from_numpy(np.squeeze(CiteSeer['gt']).astype('int'))
+
+    return x, y, x[0].shape[0]
