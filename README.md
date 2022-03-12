@@ -107,6 +107,7 @@ More detailed dataset information can be get <a href="./Data Info.md">here</a>.
 |  mirflickr  |         |       |          |                                                              |
 |     VOC     |  5649   |   2   |    20    |              [Get](./data loader/data/voc.npz)               |
 |    RGB-D    |  1449   |   2   |    13    |              [Get](./data loader/data/rgbd.npz)              |
+|  CiteSeer   |  3312   |   2   |    6     |      <a href="./data loader/data/CiteSeer.mat">Get</a>       |
 
 
 

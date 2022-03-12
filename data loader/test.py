@@ -93,3 +93,8 @@ def show_each_view_shape(data: DataShell):
 # rgbd = DataShell("./data/rgbd.npz", load_rgbd, missing=0.1)
 # print("---- rgbd")
 # show_each_view_shape(rgbd)
+#
+#  # example 18
+cite = DataShell('./data/CiteSeer.mat', load_CiteSeer, missing=0)
+print("---- cite")
+show_each_view_shape(cite)
