@@ -146,3 +146,18 @@ def load_bbcsport_2(data_dir):
     x = [torch.from_numpy(bbcsport_2['X1']).T, torch.from_numpy(bbcsport_2['X2']).T]
     y = torch.from_numpy(np.squeeze(bbcsport_2['truth']).astype('int'))
     return x, y, x[0].shape[0]
+
+
+def load_bbcsport_3(data_dir):
+    bbcsport_3 = scio.loadmat(data_dir)
+    x = [torch.from_numpy(bbcsport_3['X'][0][i]).T for i in range(3)]
+    y = torch.from_numpy(np.squeeze(bbcsport_3['truth']).astype('int'))
+    return x, y, x[0].shape[0]
+
+
+def load_100Leaves(data_dir):
+    Leaves = scio.loadmat(data_dir)
+    x = [torch.from_numpy(Leaves['X'][0][i]) for i in range(3)]
+    y = torch.from_numpy(np.squeeze(Leaves['Y']).astype('int'))
+    return x, y, x[0].shape[0]
+
