@@ -84,30 +84,31 @@ Some data is so big that we can not upload to Github. But you can get them by Ba
 
 More detailed dataset information can be get <a href="./Data Info.md">here</a>.
 
-|  Data set   | Samples | Views | Clusters |                           Location                           |
-| :---------: | :-----: | :---: | :------: | :----------------------------------------------------------: |
-| Handwritten |  2000   |   6   |    10    |     <a href="./data loader/data/handwritten.mat">Get</a>     |
-|  Caltech-7  |  1474   |   6   |    7     |    <a href="./data loader/data/Caltech101-7.mat">Get</a>     |
-| Caltech-20  |  2386   |   6   |    20    |    <a href="./data loader/data/Caltech101-20.mat">Get</a>    |
-|  BBCsport   |   116   |   4   |    5     |      <a href="./data loader/data/bbcsport.mat">Get</a>       |
-|  Scene-15   |  4485   |   2   |    15    |      <a href="./data loader/data/Scene-15.mat">Get</a>       |
-| LandUse-21  |  2100   |   2   |    21    |     <a href="./data loader/data/LandUse-21.mat">Get</a>      |
-|    Mnist    |         |   2   |    10    |        <a href="./data loader/data/mnist.mat">Get</a>        |
-| NUSWIDEOBJ  |  26315  |   5   |    31    |                         Baidu Cloud                          |
-|   MSRCV1    |   210   |   6   |    7     |                      <a href="">TBD</a>                      |
-|   Reuters   |  18758  |   5   |    6     | get/<a href="https://sites.google.com/site/reutersmultiview/">src</a> |
-| Noisy MNIST |         |   2   |    10    |                                                              |
-|    Webkb    |  1051   |   2   |    2     |        <a href="./data loader/data/WebKB.mat">Get</a>        |
-|     ORL     |   400   |   3   |    40    |       <a href="./data loader/data/ORL_mtv.mat">Get</a>       |
-|    BDGP     |  2500   |  TBD  |    5     |                             TBD                              |
-|   Youtube   | 101499  |       |    31    | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Liu_One-Pass_Multi-View_Clustering_for_Large-Scale_Data_ICCV_2021_paper.html">ref</a> |
-|   Animal    |  10158  |   2   |    50    |                                                              |
-|  SUNRGBD3   |  10335  |   2   |    45    | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Liu_One-Pass_Multi-View_Clustering_for_Large-Scale_Data_ICCV_2021_paper.html">ref</a> |
-|     AwA     |  30475  |   6   |    50    | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Liu_One-Pass_Multi-View_Clustering_for_Large-Scale_Data_ICCV_2021_paper.html">ref</a> |
-|  mirflickr  |         |       |          |                                                              |
-|     VOC     |  5649   |   2   |    20    |              [Get](./data loader/data/voc.npz)               |
-|    RGB-D    |  1449   |   2   |    13    |              [Get](./data loader/data/rgbd.npz)              |
-|  CiteSeer   |  3312   |   2   |    6     |      <a href="./data loader/data/CiteSeer.mat">Get</a>       |
+|    Data set    | Samples | Views | Clusters |                           Location                           |
+| :------------: | :-----: | :---: | :------: | :----------------------------------------------------------: |
+|  Handwritten   |  2000   |   6   |    10    |     <a href="./data loader/data/handwritten.mat">Get</a>     |
+|   Caltech-7    |  1474   |   6   |    7     |    <a href="./data loader/data/Caltech101-7.mat">Get</a>     |
+|   Caltech-20   |  2386   |   6   |    20    |    <a href="./data loader/data/Caltech101-20.mat">Get</a>    |
+|    BBCsport    |   116   |   4   |    5     |      <a href="./data loader/data/bbcsport.mat">Get</a>       |
+|    Scene-15    |  4485   |   2   |    15    |      <a href="./data loader/data/Scene-15.mat">Get</a>       |
+|   LandUse-21   |  2100   |   2   |    21    |     <a href="./data loader/data/LandUse-21.mat">Get</a>      |
+|     Mnist      |         |   2   |    10    |        <a href="./data loader/data/mnist.mat">Get</a>        |
+|   NUSWIDEOBJ   |  26315  |   5   |    31    |                         Baidu Cloud                          |
+|     MSRCV1     |   210   |   6   |    7     |                      <a href="">TBD</a>                      |
+|    Reuters     |  18758  |   5   |    6     | get/<a href="https://sites.google.com/site/reutersmultiview/">src</a> |
+|  Noisy MNIST   |         |   2   |    10    |                                                              |
+|     Webkb      |  1051   |   2   |    2     |        <a href="./data loader/data/WebKB.mat">Get</a>        |
+|      ORL       |   400   |   3   |    40    |       <a href="./data loader/data/ORL_mtv.mat">Get</a>       |
+|      BDGP      |  2500   |  TBD  |    5     |                             TBD                              |
+|    Youtube     | 101499  |       |    31    | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Liu_One-Pass_Multi-View_Clustering_for_Large-Scale_Data_ICCV_2021_paper.html">ref</a> |
+|     Animal     |  10158  |   2   |    50    |                                                              |
+|    SUNRGBD3    |  10335  |   2   |    45    | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Liu_One-Pass_Multi-View_Clustering_for_Large-Scale_Data_ICCV_2021_paper.html">ref</a> |
+|      AwA       |  30475  |   6   |    50    | <a href="https://openaccess.thecvf.com/content/ICCV2021/html/Liu_One-Pass_Multi-View_Clustering_for_Large-Scale_Data_ICCV_2021_paper.html">ref</a> |
+|   mirflickr    |         |       |          |                                                              |
+|      VOC       |  5649   |   2   |    20    |              [Get](./data loader/data/voc.npz)               |
+|     RGB-D      |  1449   |   2   |    13    |              [Get](./data loader/data/rgbd.npz)              |
+|    CiteSeer    |  3312   |   2   |    6     |      <a href="./data loader/data/CiteSeer.mat">Get</a>       |
+| BBCsport2-view |   544   |   2   |    5     |   <a href="./data loader/data/bbcsport-2view.mat">Get</a>    |
 
 
 
