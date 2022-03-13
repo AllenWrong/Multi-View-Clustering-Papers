@@ -109,6 +109,8 @@ More detailed dataset information can be get <a href="./Data Info.md">here</a>.
 |     RGB-D      |  1449   |   2   |    13    |              [Get](./data loader/data/rgbd.npz)              |
 |    CiteSeer    |  3312   |   2   |    6     |      <a href="./data loader/data/CiteSeer.mat">Get</a>       |
 | BBCsport2-view |   544   |   2   |    5     |   <a href="./data loader/data/bbcsport-2view.mat">Get</a>    |
+| BBCsport3-view |   282   |   3   |    5     |   <a href="./data loader/data/bbcsport-3view.mat">Get</a>    |
+|   100Leaves    |  1600   |   3   |   100    |      <a href="./data loader/data/100Leaves.mat">Get</a>      |
 
 
 

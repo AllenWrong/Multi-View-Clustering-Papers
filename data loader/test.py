@@ -99,7 +99,17 @@ def show_each_view_shape(data: DataShell):
 # print("---- cite")
 # show_each_view_shape(cite)
 #
-# exapmle 19
-bbcsport_2 = DataShell('./data/bbcsport-2view.mat', load_bbcsport_2, missing=0)
-show_each_view_shape(bbcsport_2)
-
+# # example 19
+# bbcsport_2 = DataShell('./data/bbcsport-2view.mat', load_bbcsport_2, missing=0)
+# print("---- bbcsport-2vew")
+# show_each_view_shape(bbcsport_2)
+#
+# # example 20
+# bbcsport_3 = DataShell('./data/bbcsport-3view.mat', load_bbcsport_3, missing=0)
+# print("---- bbcsport-3vew")
+# show_each_view_shape(bbcsport_3)
+#
+# example 21
+leaves = DataShell('./data/100Leaves.mat', load_100Leaves, missing=0)
+print("---- 100Leaves")
+show_each_view_shape(leaves)
