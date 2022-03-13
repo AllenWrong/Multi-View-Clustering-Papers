@@ -139,3 +139,10 @@ def load_CiteSeer(data_dir):
     y = torch.from_numpy(np.squeeze(CiteSeer['gt']).astype('int'))
 
     return x, y, x[0].shape[0]
+
+
+def load_bbcsport_2(data_dir):
+    bbcsport_2 = scio.loadmat(data_dir)
+    x = [torch.from_numpy(bbcsport_2['X1']).T, torch.from_numpy(bbcsport_2['X2']).T]
+    y = torch.from_numpy(np.squeeze(bbcsport_2['truth']).astype('int'))
+    return x, y, x[0].shape[0]

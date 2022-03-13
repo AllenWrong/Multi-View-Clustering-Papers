@@ -95,6 +95,11 @@ def show_each_view_shape(data: DataShell):
 # show_each_view_shape(rgbd)
 #
 #  # example 18
-cite = DataShell('./data/CiteSeer.mat', load_CiteSeer, missing=0)
-print("---- cite")
-show_each_view_shape(cite)
+# cite = DataShell('./data/CiteSeer.mat', load_CiteSeer, missing=0)
+# print("---- cite")
+# show_each_view_shape(cite)
+#
+# exapmle 19
+bbcsport_2 = DataShell('./data/bbcsport-2view.mat', load_bbcsport_2, missing=0)
+show_each_view_shape(bbcsport_2)
+
